@@ -1,7 +1,6 @@
 from flask import Flask, render_template
 
 from App.youtube import youtube_bp
-
 def create_App():
 app = Flask(**name**)
 
