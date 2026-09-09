@@ -6,8 +6,7 @@ def get_vid(query):
 try:
 encoded = urllib.parse.quote(query)
 
-```
-    url = (
+ url = (
         "https://www.youtube.com/results"
         "?search_query=" + encoded
     )
@@ -42,11 +41,11 @@ encoded = urllib.parse.quote(query)
 
 except Exception:
     return None
-```
+
 
 def create_youtube_url(command):
 
-```
+
 text = command.strip()
 
 patterns = [
@@ -83,4 +82,4 @@ return (
     + video_id
     + "?autoplay=1&mute=0"
 )
-```
+
