@@ -11,11 +11,11 @@ def create_app():
         url_prefix="/youtube"
     )
 
-    @app.route("/")
+    @App.route("/")
     def home():
         return render_template("index.html")
 
-    @app.route("/html")
+    @App.route("/html")
     def html():
         return render_template("index.html")
 
