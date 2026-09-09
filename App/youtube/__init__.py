@@ -8,7 +8,7 @@ methods=["POST"]
 )
 def play():
 
-```
+
 data = request.get_json(
     silent=True
 ) or {}
