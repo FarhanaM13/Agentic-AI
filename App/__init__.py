@@ -1,12 +1,12 @@
 from flask import Flask, render_template
-from app.youtube import youtube_bp
+from App.youtube import youtube_bp
 
 
 def create_app():
 
-    app = Flask(__name__)
+    App = Flask(__name__)
 
-    app.register_blueprint(
+    App.register_blueprint(
         youtube_bp,
         url_prefix="/youtube"
     )
@@ -19,5 +19,5 @@ def create_app():
     def html():
         return render_template("index.html")
 
-    return app
+    return App
 
