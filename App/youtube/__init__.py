@@ -1,4 +1,5 @@
 from flask import Blueprint, request, jsonify
+
 from App.youtube.player import create_youtube_url
 
 youtube_bp = Blueprint(
@@ -23,7 +24,6 @@ command = data.get(
 ).strip()
 
 if not command:
-
     return jsonify({
         "success": False,
         "message": "Song name is required"
@@ -34,7 +34,6 @@ url = create_youtube_url(
 )
 
 if not url:
-
     return jsonify({
         "success": False,
         "message": "Could not find the song"
