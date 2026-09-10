@@ -89,6 +89,8 @@ if not subject or not body:
 
   except Exception:
   if attempts == 3:
+      raise
+  time.sleep(1)
    
    
 
