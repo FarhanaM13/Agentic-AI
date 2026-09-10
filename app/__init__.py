@@ -22,7 +22,7 @@ app.register_blueprint(
 )
 
 #Home
-@app.route("/"):
+@app.route("/")
 def home():
     return render_template("index.html")
 #HTML
