@@ -6,16 +6,6 @@ agentic product for youtube and gmail :
  
 ├── __init__.py
 
-├── routes.py
-
-├── agent.py
-
-├── llm.py
-
-├── rag.py
-
-|── utils.py 
-
 ├── gmail/
 
 ├── __init__.py
@@ -31,50 +21,11 @@ agentic product for youtube and gmail :
 
 |── play.py
 
-├── routine/
-
 ├── __init__.py
-
-|── tracker.py
-
-├── internship/
-
-├── __init__.py
-
-|── tracker.py
-
-├── voice/
-
-├── __init__.py
-
-|── speech_to_text.py
 
 ├── templates/
 
 |── index.html
-
-├── static/
-
-├── style.css
-
-|── script.js
-
-├── data/
-
-|── database.db
-
-├── tests/
-
-├── test_agent.py
-
-├── test_gmail.py
-
-|── test_youtube.py
-
-
-├── .env
-
-├── .gitignore
 
 ├── requirements.txt
 
