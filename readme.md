@@ -78,7 +78,7 @@ agentic product for youtube and gmail :
 
 ├── requirements.txt
 
-├── wsgi.py
+├── wsgi.py 
 
 |── README.md
 
