@@ -14,7 +14,7 @@ agentic product for youtube and gmail :
 
 │   ├── rag.py
 
-│   └── utils.py 
+│   |── utils.py 
 │
 ├── gmail/
 
@@ -22,45 +22,45 @@ agentic product for youtube and gmail :
 
 │   ├── gmail_gen.py
 
-│   └── gmail_write.py
+│   |── gmail_write.py
 │
 ├── youtube/
 
 │   ├── __init__.py
 
-│   └── play.py
+│   |── play.py
 │
 ├── routine/
 
 │   ├── __init__.py
 
-│   └── tracker.py
+│   |── tracker.py
 │
 ├── internship/
 
 │   ├── __init__.py
 
-│   └── tracker.py
+│   |── tracker.py
 │
 ├── voice/
 
 │   ├── __init__.py
 
-│   └── speech_to_text.py
+│   |── speech_to_text.py
 │
 ├── templates/
 
-│   └── index.html
+│   |── index.html
 │
 ├── static/
 
 │   ├── style.css
 
-│   └── script.js
+│   |── script.js
 │
 ├── data/
 
-│   └── database.db
+│   |── database.db
 │
 ├── tests/
 
@@ -68,7 +68,7 @@ agentic product for youtube and gmail :
 
 │   ├── test_gmail.py
 
-│   └── test_youtube.py
+│   |── test_youtube.py
 
 │
 ├── .env
@@ -79,7 +79,7 @@ agentic product for youtube and gmail :
 
 ├── wsgi.py
 
-└── README.md
+|── README.md
 
 Gmail work:
 
