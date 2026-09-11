@@ -83,7 +83,6 @@ agentic product for youtube and gmail :
 |── README.md
 
 Gmail work:
-
 Module	Work:
 
 gmail/__init__.py :	Gmail package initialization
@@ -93,7 +92,6 @@ gmail_write.py :	Create/send email through Gmail API
 
 
 YouTube work:
-
 Module	Work:
 
 youtube/__init__.py :	YouTube package initialization
