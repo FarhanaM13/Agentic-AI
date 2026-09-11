@@ -1,7 +1,7 @@
 agentic-ai/
-|__agentic product for youtube and gmail :
-│
-├── app/
+agentic product for youtube and gmail :
+
+ app/
 │   ├── __init__.py
 │   ├── routes.py
 │   ├── agent.py
