@@ -7,7 +7,7 @@ agentic-ai/
 │   ├── agent.py
 │   ├── llm.py
 │   ├── rag.py
-│   └── utils.py
+│   └── utils.py 
 │
 ├── gmail/
 │   ├── __init__.py
